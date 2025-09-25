@@ -1,18 +1,69 @@
 body {
-    color: aliceblue;
-    background-color: pink;
-    line-height: 25px;
-    margin: 0 10px 20px 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 75px;
+    margin: 0 0 20px -5px;
+    background-image: url(repeating\ plants.jpg);
+    background-size: 300px;
+    text-align: center;
+}
+
+h1 {
+    margin: 10px;
+    color: #e3a524;
+    text-decoration-color: skyblue;
+    text-decoration-line: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-style: wavy;
+}
+
+.box {
+    width: 25vw;
+    height: 25vw;
+    background-color: blanchedalmond;
+}
+
+#upleft {
+    margin: 10px;
+    position: relative;
+}
+
+#upright {
+    margin: 10px;
+    position: relative;
+}
+
+#botleft {
+    margin: 10px;
+    position: relative;
+}
+
+#botright {
+    margin: 10px;
+    position: relative;
+}
+
+.bone {
+    overflow: hidden;
 }
 
 img {
     width: 100vw;
     border: 4px solid orange;
+    margin: 10px, 10px, 10px, 0;
 }
 
 video {
-    width: 300px;
+    width: 500px;
     border: 4px solid purple;
+}
+
+#rickroll {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 table {
@@ -33,13 +84,9 @@ a {
 }
 
 .hidden {
-    color: pink;
-    background-color: pink;
+    color: #3a4a64;
 }
 
 .hidden:hover {
    background-color: blanchedalmond;
-
 }
-
-
