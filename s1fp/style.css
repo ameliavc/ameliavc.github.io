@@ -58,6 +58,7 @@ table {
     height: 25vw;
     margin: 5px;
     color: rgb(7, 36, 62);
+    font-size: 25px;
 }
 
 table td {
@@ -77,4 +78,5 @@ a {
 
 .hidden:hover {
    background-color: blanchedalmond;
+
 }
