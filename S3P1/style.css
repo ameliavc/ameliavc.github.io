@@ -1,0 +1,57 @@
+body {
+    color: #f0e2ba;
+    background-color: #A81D21;
+}
+
+a {
+  color: #f0e2ba;
+  text-decoration: none;
+}
+
+.buttonIMG {
+    position: absolute;
+    top: calc(30vh - 100px);
+    left: calc(30vw);
+    width: 40vw;
+    min-width: 200px;
+    z-index: 0
+}
+  
+.intro {
+    position: absolute;
+    top: calc(30vh - 80px);
+    left: calc(45vw);
+    font-family: 'Courier New', monospace;
+    z-index: 1;
+}
+
+
+#play:hover {
+  cursor: pointer;
+  color: rgb(8, 67, 8)
+}
+
+.notebox {
+  padding: 20px;
+  margin: 10px;
+  background-color: white;
+  float: left;
+}
+
+#e1 {
+  background-color: white;
+}
+
+#video {
+  width: 40vw;
+}
+
+#nextbutton {
+  font-size: 40px;
+  color: whitesmoke;
+}
+
+#nextbutton:hover {
+  font-size: 40px;
+  color: rgb(8, 67, 8)
+}
