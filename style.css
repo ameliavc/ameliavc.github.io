@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(84, 28, 28);
+}
+
+#bookshelf {
+    width: 500px;
+    z-index: -100000;
+    position:absolute;
+    margin-top: 400px;
+}
+
+#quilt {
+    width: 100px;
+    position: absolute;
+}
+
+#stilllife {
+    width: 100px;
+    position: absolute;
+}
+
+#simonsays {
+    width: 100px;
+    position: absolute;
+}
+
+#storyteller {
+    width: 100px;
+    position: absolute;
+}
+
+#applet {
+    width: 100px;
+    position: absolute;
+}
+
+#clock {
+    width: 100px;
+    position: absolute;
+}
+
+#piano {
+    width: 100px;
+    position: absolute;
+}
+
+#river {
+    width: 100px;
+    position: absolute;
+}
