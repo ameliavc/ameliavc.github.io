@@ -1,50 +1,132 @@
 body {
-    background-color: rgb(84, 28, 28);
+    background-color: rgb(192, 167, 167);
+    color: black;
 }
+
+/* Tree */
 
 #bookshelf {
-    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+#bookshelf img {
+    height: 100vh;
     z-index: -100000;
     position:absolute;
-    margin-top: 400px;
 }
 
-#quilt {
-    width: 100px;
+/* Readings/table */
+
+#readings img {
+    height: 8%;
     position: absolute;
+    top: calc(60vh + 30px);
+    left: 30vw;
+    z-index: 1000;
 }
 
-#stilllife {
-    width: 100px;
-    position: absolute;
+#readings2 {
+    text-align: center;
+    /* text-decoration: underline wavy blue 2px; */
+
 }
 
-#simonsays {
-    width: 100px;
-    position: absolute;
+#headers {
+    font-weight: 700;
 }
 
-#storyteller {
-    width: 100px;
-    position: absolute;
+table {
+    border: 5px ridge rgb(73, 132, 80);
+    text-align: center;
 }
 
-#applet {
-    width: 100px;
-    position: absolute;
+tr {
+    background-color: rgb(168, 123, 123);
 }
 
-#clock {
-    width: 100px;
-    position: absolute;
+td {
+    min-width: 220px;
+    border: 5px groove rgb(175, 50, 50);
 }
 
-#piano {
-    width: 100px;
+
+/* Ornament */
+
+#quilt img {
+    height: 8%;
+    min-width: 50px;
+    /* margin-left: 80px; */
+    top: calc(60vh);
+    left: calc(46vw);
+    rotate: 45deg;
     position: absolute;
+    /* margin-top: 440px; */
 }
 
-#river {
-    width: 100px;
+#stilllife img {
+    height: 7%;    
     position: absolute;
+    top: calc(70vh + 30px);
+    left: 55vw;
+}
+
+#simonsays img {
+    height: 5%;    
+    position: absolute;
+    top: calc(80vh + 10px);
+    left: calc(40vw);
+}
+
+#storyteller img {
+    height: 6%;    
+    position: absolute;
+    top: calc(60vh + 50px);
+    left: calc(60vw + 30px);
+}
+
+#applet img {
+    height: 10%;    
+    position: absolute;
+    top: calc(30vh);
+    left: calc(50vw + 20px);
+}
+
+#clock img {
+    height: 7%;    
+    position: absolute;
+    top: calc(40vh);
+    left: calc(35vw + 20px);
+}
+
+#piano img {
+    height: 10%;    
+    position: absolute;
+    top: calc(40vh + 50px);
+    left: calc(50vw + 20px);
+}
+
+#river img {
+    height: 7%;    
+    max-width: 75px;
+    position: absolute;
+    top: calc(7vh + 50px);
+    left: calc(50vw - 25px);
+}
+
+/* Viewport Sizes */
+@media only screen and (min-width: 1300px) {
+    #readings img {
+        left: calc(40vw);
+    } 
+    #storyteller img {
+        left: calc(60vw - 20px);
+    }
+    #clock img {
+        left: calc(40vw + 50px);
+    }
+    
+    /* readings, story, clock{ 
+         left: calc(
+    } */
 }
