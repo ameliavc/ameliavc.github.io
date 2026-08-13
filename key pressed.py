@@ -5,20 +5,9 @@ import cv2 #computer vision library
 import time
 
 
-# try:  # used try so that if user pressed other than the given key error will not be shown
-#      if keyboard.is_pressed('q'):  # if key 'q' is pressed 
-#             print('Note Recorded')  #I'm not sure what 
-#             Video_notes.append()
-# except: 
-#      if keyboard.is_pressed(''):
-#            print('Error: invalid key selected')
-
-
            # 1. Configuration Settings
-VIDEO_PATH = "Jackie_R_6 - video1560309659.mp4"  
+VIDEO_PATH = "video1560309659.mp4"  
 NOTES_FILE = "video_notes.txt"
-
-# NEED TO CHECK BC AI GEN
 
 def save_note(timestamp_ms, text):
     """Saves the note with a formatted timestamp to a text file."""
